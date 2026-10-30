@@ -1,5 +1,8 @@
 // Herdr's Files panel with VS Code's Material Icon Theme icons: a lazy file browser for the
 // focused pane's folder, with bounded read-only previews.
+//
+// Modified from Herdr's shipped `files` mod (https://github.com/herdrdev/herdr-app, Apache-2.0):
+// added DIR, icon() and the Material Icon Theme icons in the rows and the preview header.
 import { View, div, svg, image } from "gpui-kit";
 import { v_flex, h_flex, Editor, EditorState } from "gpui-base";
 import { spaces, panes, focused, exec, readTextFile, watchFolder, theme, settings, window } from "herdr";
